@@ -23,5 +23,10 @@ Um mural simples de avisos criado com **Node.js**, **Express**, **JavaScript pur
 
 ---
 
-## 📁 Estrutura de Pastas
+## 📦 Dependências
+
+Para rodar este projeto, você precisará instalar as seguintes dependências via `npm`:
+
+```bash
+npm install express
 
