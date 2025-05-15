@@ -15,4 +15,13 @@ router.post("/new", (req, res)=>{
     res.send("Post adicionado");
 });
 
+router.delete("/delete/:id", (req, res)=>{
+    const id = req.params.id;
+
+    posts.deletePost(id);
+
+    console.log("post deletado com sucesso!")
+    res.send({message: "Post deletado"});
+})
+
 export default router;

@@ -1,8 +1,6 @@
 export default {
 
-    posts: [
-        
-    ],
+    posts: [],
 
     getAll(){
         return this.posts;
@@ -11,6 +9,10 @@ export default {
     newPost(title, description){
         console.log("post adicionado com sucesso!")
         this.posts.push({id: generateID(), title, description});
+    },
+
+    deletePost(id){
+        this.posts = this.posts.filter(post => post.id != id);
     }
 }
 
