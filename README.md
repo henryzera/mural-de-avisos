@@ -30,3 +30,4 @@ Para rodar este projeto, você precisará instalar as seguintes dependências vi
 ```bash
 npm install express
 
+![GravacaodeTela2025-05-15as02 07 44-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/d4017953-c65e-4d7c-9a46-99423808f4bf)
